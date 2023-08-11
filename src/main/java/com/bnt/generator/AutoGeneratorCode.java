@@ -25,7 +25,7 @@ public class AutoGeneratorCode {
      * 数据源配置
      */
     private static final DataSourceConfig.Builder DATA_SOURCE_CONFIG = new DataSourceConfig
-            .Builder("jdbc:mysql://192.168.113.2:3306/mitapp?useUnicode=true&characterEncoding=utf-8&autoReconnect=true&useSSL=false", "root", "RZVJR5k4c3WmbLcd");
+            .Builder("jdbc:mysql://xxx:3306/mitapp?useUnicode=true&characterEncoding=utf-8&autoReconnect=true&useSSL=false", "root", "xxx");
 
     public static void main(String[] args) {
         FastAutoGenerator.create(DATA_SOURCE_CONFIG)
